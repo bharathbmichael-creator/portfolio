@@ -93,11 +93,11 @@ export const ProjectCard: React.FC<{
                   onClick={(e) => e.stopPropagation()}
                   className="hover:text-[var(--text)] inline-flex items-center gap-1 text-sm font-medium text-[var(--link)] hover:underline"
                 >
-                  {FaLink && <FaLink className="w-4 h-4" />} Demo
+                  {/* {FaLink && <FaLink className="w-4 h-4" />} Demo */}
                 </a>
               )}
               {/* Links (dynamic icons) */}
-              {project.links &&
+              {/* {project.links &&
                 project.links.length > 0 &&
                 project.links.map((link) => {
                   const Icon =
@@ -116,11 +116,11 @@ export const ProjectCard: React.FC<{
                       {link.label}
                     </a>
                   );
-                })}
+                })} */}
             </div>
 
             {/* Tags */}
-            <div className="mt-3 flex gap-2 flex-wrap">
+            {/* <div className="mt-3 flex gap-2 flex-wrap">
               {visibleTags?.map((t) => (
                 <span
                   key={t}
@@ -143,7 +143,7 @@ export const ProjectCard: React.FC<{
                   +{hiddenCount}
                 </button>
               )}
-            </div>
+            </div> */}
           </div>
         </div>
       </motion.article>

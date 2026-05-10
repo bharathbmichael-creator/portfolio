@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { ThemeProvider } from "../components/ThemeProvider";
 import { Header } from "../components/shared/Header";
-// import { ProjectsGrid } from "../components/ProjectsGrid";
+import { ProjectsGrid } from "../components/ProjectsGrid";
 import { SkillsList } from "../components/SkillsList";
 import { ContactForm } from "../components/ContactForm";
 import { Footer } from "../components/shared/Footer";
@@ -88,18 +88,21 @@ const PortfolioPage: React.FC = () => {
         <section id="projects" className="py-8">
           <h2 className="text-2xl font-semibold text-[var(--brand)]">Projects</h2>
           <p className="mb-6 text-sm text-gray-500 dark:text-gray-400 mt-1">
-            Will Update Soon.
+            Here are some highlights from my journey. I enjoy building projects that solve real problems and push the boundaries of what's possible. Check out the ones that resonate with you!
           </p>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700 text-2xl font-semibold dark:text-gray-400 mt-1">
+          {/* <p className="mb-6 text-sm text-gray-500 dark:text-gray-400 mt-1">
+            From AI agents to web applications, these projects showcase my passion for creating impactful solutions. Each one reflects my commitment to learning, innovation, and making a difference through technology.
+          </p>
+          {/* <ul className="list-disc pl-6 space-y-2 text-gray-700 text-2xl font-semibold dark:text-gray-400 mt-1">
           <li>Developed an AI agent that analyzes feature requirements before implementation and generates detailed execution plans, improving development efficiency by 30%</li>
           <li>Built an AI-powered application, performance analysis system that uses AI to identify frontend and backend bottlenecks, improving debugging and system optimization workflows</li>
           <li>Integrated REST APIs with frontend and contributed to architectural decisions and UI framework standards for platform development</li>
           <li>Optimized performance and accessibility</li>
-          </ul>
-          {/* <ProjectsGrid
+          </ul> */}
+          <ProjectsGrid
             projects={PORTFOLIO_INFO.projects}
             onOpen={setSelected}
-          /> */}
+          />
         </section>
 
         <section id="skills" className="py-8">

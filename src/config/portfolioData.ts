@@ -10,7 +10,7 @@ export const PORTFOLIO_INFO: Portfolio = {
   personal: {
     name: "Bharath B",
     title: "Software Engineer — Front End (React)",
-    headline: "React .JavaScript .HTML .CSS .TypeScript .AWS",
+    headline: "React .JavaScript .HTML .CSS .TypeScript .AWS .Tizen Studio .Beyond Compare .Cyber Duck .WinSCP .VS Code .NPM .Sublime",
     // avatar can be a string, an object with { url, label }, or an array of those.
     avatar: [
       // use public root path so Vite serves the static asset from /public/profile.jpg
@@ -56,12 +56,12 @@ export const PORTFOLIO_INFO: Portfolio = {
   },
   highlights: [
     // "Software Engineer at Unisys (Jun 2025 – Present)",
-    "6+ years focused on Front end development with React, TypeScript, and modern UI ecosystems",
+    "6+ years focused on Front end development with React, JavaScript, and modern UI ecosystems",
     "Experienced with responsive design, accessibility, and building reusable component libraries",
   ],
   skills: [
     {
-      title: "Frontend",
+      // title: "Frontend",
       skills: [
         {
           name: "React",
@@ -157,6 +157,30 @@ export const PORTFOLIO_INFO: Portfolio = {
           years: 2,
           note: "Using since 2025",
         },
+        {
+          name: "Sublime",
+          level: 80,
+          icon: "SiSublime",
+          category: "frontend",
+          years: 1,
+          note: "Used in 2023-2024",
+        },
+        {
+          name: "Node JS",
+          level: 80,
+          icon: "SiNodejs",
+          category: "frontend",
+          years: 1,
+          note: "Used in 2023-2024",
+        },
+        {
+          name: "Tizen Studio",
+          level: 80,
+          icon: "SiTizen",
+          category: "frontend",
+          years: 1,
+          note: "Using since 2025",
+        },
       ],
     },
   ],
@@ -227,157 +251,93 @@ export const PORTFOLIO_INFO: Portfolio = {
   ],
   projects: [
     {
-      id: "learn-algo",
-      title: "Learn Algo",
+      id: "STV",
+      title: "STV",
       description:
-        "Interactive visualizations that transform abstract concepts into intuitive understanding. Watch sorting, searching, and ML algorithms execute step-by-step.",
-      tags: ["Algorithms", "DSA", "ML", "AI", "Visualization", "Next.js"],
+        "Developed and optimized Smart TV OTT applications, delivering seamless streaming experiences across platforms like Samsung Tizen, LG webOS, and Android TV. Built scalable React-based UI components, integrated media playback and OTT workflows, and enhanced performance, accessibility, and cross-device compatibility for production-ready television applications",
+      tags: ["ReactJS", "JavaScript", "HTML", "SCSS"],
       image:
-        "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXpqYWFhbnBraWt3ZXhvajZsdjg5andyMGZzY2VibGg3bXE0MWxwayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2PuPWxuLV1FGyh03Ja/giphy.gif",
-      href: "https://www.learn-algo.com",
+        "https://ik.imagekit.io/tp/20241112-tv-streaming-svod.png?tr=w-800,h-456",
+      href: "https://ik.imagekit.io/tp/20241112-tv-streaming-svod.png?tr=w-800,h-456",
       links: [
-        {
-          label: "GitHub",
-          url: "https://github.com/satya00089/learn-algo",
-          icon: "SiGithub",
-        },
+        // {
+        //   label: "GitHub",
+        //   url: "https://github.com/satya00089/learn-algo",
+        //   icon: "SiGithub",
+        // },
       ],
-      isUnderDevelopment: false,
+      isUnderDevelopment: true,
     },
     {
-      id: "landing-zone-orchestrator",
-      title: "Landing Zone Orchestrator",
+      id: "BBMP",
+      title: "BBMP",
       description:
-        "A production-ready platform that transforms cloud infrastructure provisioning from manual IaC coding to an intuitive, form-driven workflow. Built with React, FastAPI, and MongoDB to generate validated Terraform templates for AWS, Azure, and GCP. Features include schema-driven form builder for VPC, Subnets, IAM, and networking resources, real-time Terraform code generation and validation, JWT-based authentication, MongoDB storage for projects and templates, and multi-cloud support.",
+        "Built and maintained citizen-facing web applications for Bruhat Bengaluru Mahanagara Palike, focusing on responsive UI development, workflow optimization, and seamless integration with backend services. Developed scalable React.js interfaces, improved accessibility and performance, and contributed to digital governance solutions used across municipal operations and public services.",
       tags: [
-        "Terraform",
-        "IaC",
-        "React",
-        "FastAPI",
-        "MongoDB",
-        "AWS",
-        "Azure",
-        "Full Stack",
+        // "Terraform",
+        // "IaC",
+        // "React",
+        // "FastAPI",
+        // "MongoDB",
+        // "AWS",
+        // "Azure",
+        // "Full Stack",
       ],
       image:
-        "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGtuYjY1emtsZmNjMXp1czdrdXR5bXE5ZDJheHVvZjY1azZxYnJieiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qzImRjQVb2OUI84mTt/giphy.gif",
-      href: "https://orchestrator.next-zen.dev",
+        "https://images-citizenmatters.sgp1.digitaloceanspaces.com/wp-content/uploads-new/2024/02/bbmp_new_website.jpg",
+      href: "https://images-citizenmatters.sgp1.digitaloceanspaces.com/wp-content/uploads-new/2024/02/bbmp_new_website.jpg",
       links: [
-        {
-          label: "GitHub",
-          url: "https://github.com/satya00089/landing-zone-orchestrator-ui",
-          icon: "SiGithub",
-        },
+        // {
+        //   label: "GitHub",
+        //   url: "https://github.com/satya00089/landing-zone-orchestrator-ui",
+        //   icon: "SiGithub",
+        // },
       ],
-      isUnderDevelopment: true,
+      // isUnderDevelopment: true,
     },
     {
-      id: "diagrammatic",
-      title: "Diagrammatic",
+      id: "Interopx",
+      title: "Interopx",
       description:
-        "Diagrammatic (System Design Playground): A component library and living documentation for a design system.",
-      tags: ["System Design", "AI & ML", "React"],
-      image:
-        "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTFnOGF3d3BodjFvY3NhanY5cnl5bmd4Z243aXB5M3hrOHg3d2tmeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WvzQektcJxs0oDFkHq/giphy.gif",
-      href: "https://diagrammatic.next-zen.dev",
-      links: [
-        {
-          label: "GitHub",
-          url: "https://github.com/satya00089/diagrammatic",
-          icon: "SiGithub",
-        },
+        "Interopx is a health care enterprise platform that seamlessly integrates with EHRs & other Health IT Systems to provide access to available healthcare data , such as patient, disease, treatment, billing, etc. In a harmonized and aggregated format. Access to the health care data you are authorized to must not be more complicated than accessing any other data from external system. The EHR revolution, incentivised through Meaningful Use, has significantly improved the quality of care and at the same time reduced the cost of operating a healthcare business. The next revolutionary transformation of our healthcare system must address the ever increasing cost of providing healthcare to our citizens. We believe that a significant portion of the cost can be attributed to data sharing and interoperability challenges. Our vision is to eliminate these challenges by using an EHR agnostic data access platform that allows secure, scalable, and efficient access to that you are authorized to access.",
+      tags: [
+        // "Terraform",
+        // "IaC",
+        // "React",
+        // "FastAPI",
+        // "MongoDB",
+        // "AWS",
+        // "Azure",
+        // "Full Stack",
       ],
+      image:
+        "https://interopx.com/wp-content/uploads/2024/03/interopx-booth-scaled-e1710643154201.jpeg",
+      href: "https://interopx.com/wp-content/uploads/2024/03/interopx-booth-scaled-e1710643154201.jpeg",
+      links: [
+        // {
+        //   label: "GitHub",
+        //   url: "https://github.com/satya00089/landing-zone-orchestrator-ui",
+        //   icon: "SiGithub",
+        // },
+      ],
+      // isUnderDevelopment: true,
     },
     {
-      id: "tic-tac-toe-ai",
-      title: "Tic Tac Toe AI",
+      id: "SMART Markers",
+      title: "SMART Markers",
       description:
-        "A minimal Tic-Tac-Toe AI game built with Next.js to understand the Minimax algorithm.",
-      tags: ["Next.js", "AI", "Game", "Minimax"],
+        "SmartMarkers is an app that is related to the health care domain, the main moto of this application is to provide the end to end communication between patient and practitioner, here it can include three modules smartmarkers-mainlibrary, patient and practitioner apps, Practitioner can raise a questionnaire to the patient, based on that questionnaire patient has the access to submit the questionnaire responses, here patient can submit multiple responses for a single questionnaire for that we also generated a heatmap for it, for accessing the patient records",
+      tags: ["ReactJs", "HTML", "CSS"],
       image:
-        "https://raw.githubusercontent.com/satya00089/tic-tac-toe/main/public/tic-tac-toe.png",
-      href: "https://satya00089.github.io/tic-tac-toe/",
+        "https://avatars.githubusercontent.com/u/55999665?s=280&v=4",
+      href: "https://avatars.githubusercontent.com/u/55999665?s=280&v=4",
       links: [
-        {
-          label: "GitHub",
-          url: "https://github.com/satya00089/tic-tac-toe",
-          icon: "SiGithub",
-        },
+        // {
+        //   label: "GitHub",
+        //   url: "https://github.com/satya00089/diagrammatic",
+        //   icon: "SiGithub",
+        // },
       ],
-      isUnderDevelopment: false,
-    },
-    {
-      id: "mui-color-wheel",
-      title: "MUI Color Wheel",
-      description:
-        "A Material-UI based color wheel component with real-time color picking.",
-      tags: ["React", "Material-UI", "NPM Package", "Storybook"],
-      image:
-        "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTJxYjhmdTVjam41aWlzczZreGZ2eXc5eThjdDRpMXgxYzVuYTAzMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tWnCyw4rmoFY8CmhLV/giphy.gif",
-      href: "https://mui-color-wheel.vercel.app/",
-      links: [
-        {
-          label: "Storybook",
-          url: "https://mui-color-wheel.vercel.app/",
-          icon: "SiStorybook",
-        },
-        {
-          label: "NPM",
-          url: "https://www.npmjs.com/package/mui-color-wheel",
-          icon: "SiNpm",
-        },
-        {
-          label: "GitHub",
-          url: "https://github.com/satya00089/mui-color-wheel",
-          icon: "SiGithub",
-        },
-      ],
-      isUnderDevelopment: true,
-    },
-    {
-      id: "alochona",
-      title: "Alochona",
-      description:
-        "Alochona is an experimental chatbot hosted on Hugging Face Spaces. It uses OpenAI under the hood for responses. This project was built as a way to explore chatbot UIs, Hugging Face deployment, and integrating OpenAI APIs.",
-      image:
-        "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmc5dDY1c2ZnOGs0ODF0eDkwbzBvMHZ2ZXJvYml2amRmdzN2dnZueSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7AFQj6uviWpwudbOWg/giphy.gif",
-      href: "https://huggingface.co/spaces/satya00089/alochona",
-      links: [
-        {
-          label: "Huggingface",
-          url: "https://huggingface.co/spaces/satya00089/alochona/tree/main",
-          icon: "SiHuggingface",
-        },
-        {
-          label: "GitHub",
-          url: "https://github.com/satya00089/alochona",
-          icon: "SiGithub",
-        },
-      ],
-      tags: ["Chatbot", "OpenAI", "Hugging Face", "Beginner Project"],
-    },
-    {
-      id: "night-sky",
-      title: "Night Skyline",
-      description:
-        "A breathtaking recreation of the city skyline under a starlit night sky, capturing the serene beauty and glowing atmosphere of the evening.",
-      tags: ["React", "CSS"],
-      image:
-        "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2RjaHAxY3N3enY0d3RldWVpczg2ZTNzMHhsY2dpam0yYnp6bWh2byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/P2jddT5c9g9OeHI17p/giphy.gif",
-      href: "https://satya00089.github.io/night-sky",
-      links: [
-        {
-          label: "Watch",
-          url: "https://www.loom.com/share/1516014366e34135a67f5dd4e551fec5",
-          icon: "FaPlay",
-        },
-        {
-          label: "GitHub",
-          url: "https://github.com/satya00089/night-sky",
-          icon: "SiGithub",
-        },
-      ],
-      isUnderDevelopment: true,
     },
   ],
   education: [
