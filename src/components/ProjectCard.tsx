@@ -1,10 +1,10 @@
 // ProjectCard.tsx
-import React, { useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
-import { tagColors } from "../config/portfolioData";
+// import { tagColors } from "../config/portfolioData";
 import type { Project } from "../types/portfolio";
-import * as SiIcons from "react-icons/si";
-import * as FaIcons from "react-icons/fa";
+// import * as SiIcons from "react-icons/si";
+// import * as FaIcons from "react-icons/fa";
 import { BsArrowUpRightCircleFill } from "react-icons/bs";
 import { CardContainer } from "./CardContainer";
 
@@ -12,17 +12,17 @@ export const ProjectCard: React.FC<{
   project: Project;
   onOpen?: (p: Project) => void;
 }> = ({ project, onOpen }) => {
-  const [showAll, setShowAll] = useState(false);
+  // const [showAll, setShowAll] = useState(false);
 
   // how many tags to show before "+x"
-  const VISIBLE_COUNT = 3;
+  // const VISIBLE_COUNT = 3;
 
-  const FaLink = FaIcons["FaLink" as keyof typeof FaIcons];
+  // const FaLink = FaIcons["FaLink" as keyof typeof FaIcons];
 
-  const visibleTags = showAll
-    ? project?.tags
-    : project?.tags?.slice(0, VISIBLE_COUNT);
-  const hiddenCount = (project?.tags?.length ?? 0) - VISIBLE_COUNT;
+  // const visibleTags = showAll
+  //   ? project?.tags
+  //   : project?.tags?.slice(0, VISIBLE_COUNT);
+  // const hiddenCount = (project?.tags?.length ?? 0) - VISIBLE_COUNT;
 
   return (
     <CardContainer
