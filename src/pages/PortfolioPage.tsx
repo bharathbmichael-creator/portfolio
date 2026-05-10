@@ -134,6 +134,9 @@ const PortfolioPage: React.FC = () => {
                   Email: bharathbmichael@gmail.com
                 </div>
                 <div className="text-sm text-gray-500 dark:text-gray-400">
+                  Contact: (+91) 8088314404
+                </div>
+                <div className="text-sm text-gray-500 dark:text-gray-400">
                   Location: Bengaluru
                 </div>
               </div>
