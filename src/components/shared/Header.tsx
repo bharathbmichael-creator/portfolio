@@ -15,7 +15,7 @@ type NavLink = { href: string; label: string };
 
 export const Header: React.FC<{ links?: NavLink[]; onTryCLI?: () => void }> = ({
   links = [],
-  onTryCLI,
+  // onTryCLI,
 }) => {
   const { dark, toggle } = useTheme();
   const headerRef = useRef<HTMLElement | null>(null);
